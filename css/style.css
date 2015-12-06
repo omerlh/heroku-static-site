@@ -1,0 +1,52 @@
+.menu-items
+{
+	list-style-type: none;
+	position: absolute;
+	z-index: 700;
+	padding: 0;
+	margin-top: 28px;
+}
+
+.button-background {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+}
+
+.button:hover .menu{
+	display: block;
+}
+
+.button:hover .button-background{
+	display: none;
+}
+
+.menu-background {
+	width: 100px;
+	height: 200px;
+	position: absolute;
+	z-index: 0;
+}
+
+.menu-item-image {
+	width: 80px;
+	height: 20px;
+}
+
+.menu {
+	position: relative;
+	padding: 0;
+	display: none;
+	top: 0;
+}
+
+.menu-item {
+	padding-top: 5px;
+    padding-left: 10px;
+}
+
+.button {
+	display: inline-block;
+	position: relative;
+}
